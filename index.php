@@ -30,7 +30,12 @@
           <a href="05_arrays.php" class="list-group-item">Arrays</a>
           <a href="06_if_else.php" class="list-group-item">IF .. ELSE</a>
           <a href="07_switch.php" class="list-group-item">Switch</a>
-          <a href="05_arrays.php" class="list-group-item">Arrays</a>
+          <a href="08_for.php" class="list-group-item">for/foreach</a>
+          <a href="09_while_do.php" class="list-group-item">while/do</a>
+          <a href="10_functii.php" class="list-group-item">Functii</a>
+
+
+
 
         </ul>
       </div>
