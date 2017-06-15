@@ -33,9 +33,7 @@
           <a href="08_for.php" class="list-group-item">for/foreach</a>
           <a href="09_while_do.php" class="list-group-item">while/do</a>
           <a href="10_functii.php" class="list-group-item">Functii</a>
-
-
-
+          <a href="12_fisiere.php" class="list-group-item">Manipulare fisiere</a>
 
         </ul>
       </div>

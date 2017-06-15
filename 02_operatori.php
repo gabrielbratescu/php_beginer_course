@@ -43,7 +43,7 @@ echo "Nr 1 este acum :" . $a . "<br>";
 
 echo "<hr>";
 echo "<h2>Operatori logici si de comparatie</h2>";
-echo "<h4>Exemple la functia <a href='#' >IF .. ELSE</a></h4>";
+echo "<h4>Exemple la functia <a href='06_if_else.php' >IF .. ELSE</a></h4>";
 
 
 ?>
