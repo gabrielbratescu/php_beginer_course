@@ -11,6 +11,9 @@ echo "<br>";
 echo 'Gabriel ' . $nume;
 
 echo "<br>";
+echo 'Gabriel $nume';
+
+echo "<br>";
 echo ('Gabriel ' . $nume);
 
 echo "<br>";
@@ -20,7 +23,7 @@ echo "<br>";
 print ('Gabriel ' . $nume);
 
 echo "<br>";
-printf('Gabriel %s are %d de ani' , $nume, 38);
+printf('Gabriel %s are %d de ani %s' , $nume, 38, "dsadsa");
 
 $ceva = array(1,2,3,4,5);
 

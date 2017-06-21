@@ -11,7 +11,7 @@ $nume = 42;
 echo "<br>";
 echo "Variabila nume contine $nume";
 
-$nume = false;
+$nume = true;
 echo "<br>";
 echo "Variabila nume contine $nume";
 

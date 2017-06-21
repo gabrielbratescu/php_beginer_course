@@ -51,7 +51,6 @@ for ($i = 0; $i < count($myArray1); $i++){
     echo "<br>";
 }
 
-
 ?>
 <hr>
 <table border="1">
@@ -64,5 +63,10 @@ for ($i = 0; $i < count($myArray1); $i++){
        echo "</tr>";
    }
    ?>
-
 </table>
+
+<hr>
+<?php
+$ceva = array(NULL => NULL);
+var_dump($ceva);
+ ?>

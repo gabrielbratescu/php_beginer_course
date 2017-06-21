@@ -8,8 +8,8 @@ echo "Nr 2: $b" . "<br>";
 
 echo "<hr>";
 echo "<h2>Operatori aritmerici</h2>";
-$c = $a+$b;
-echo "Suma celor 2 numere este : " . $c . "<br>";
+$a = $a+$b;
+echo "Suma celor 2 numere este : " . $a . "<br>";
 
 $c = $a-$b;
 echo "Diferenta celor 2 numere este : " . $c  . "<br>";
@@ -30,6 +30,7 @@ echo "<hr>";
 echo "<h2>Operatori de atribuire</h2>";
 
 $a += $b;
+//$a = $a+$b;
 echo "Nr 1 este acum : $a  <br>";
 $a /= $b;
 echo "Nr 1 este acum : $a  <br>";
