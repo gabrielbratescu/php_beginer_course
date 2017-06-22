@@ -1,4 +1,5 @@
 <?php
+include ("header.php");
 
 $mesaj = "Astazi este o zi PHP buna de invatat PHP";
 
@@ -21,5 +22,5 @@ echo "<pre>";
 var_dump($mesajArray);
 echo "</pre>";
 
-
+include ("footer.php");
  ?>

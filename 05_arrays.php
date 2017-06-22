@@ -1,8 +1,11 @@
 <?php
+include ("header.php");
+
 
 $mesaj = "Gabriel,Bratescu,38,1.78,true";
 $mesajArray = explode(",", $mesaj);
 
+echo $mesaj . "<br>";
 echo "Indexed array <br>";
 var_dump($mesajArray);
 
@@ -53,7 +56,7 @@ for ($i = 0; $i < count($myArray1); $i++){
 
 ?>
 <hr>
-<table border="1">
+<table border="1" style="width:400px">
    <?php
    for ($i = 0; $i < count($myArray1); $i++){
      echo "<tr>";
@@ -69,4 +72,7 @@ for ($i = 0; $i < count($myArray1); $i++){
 <?php
 $ceva = array(NULL => NULL);
 var_dump($ceva);
+
+include ("footer.php");
+
  ?>

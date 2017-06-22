@@ -34,11 +34,11 @@
           <a href="09_while_do.php" class="list-group-item">while/do</a>
           <a href="10_functii.php" class="list-group-item">Functii</a>
           <a href="12_fisiere.php" class="list-group-item">Manipulare fisiere</a>
+          <a href="13_parcurgere_fisier.php" class="list-group-item">Parcurgere fisier</a>
 
         </ul>
       </div>
     </div>
-
   </div>
 
 </body>

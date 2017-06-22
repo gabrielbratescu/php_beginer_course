@@ -1,4 +1,5 @@
 <?php
+include ("header.php");
 
 $nume = "Bratescu";
 
@@ -33,5 +34,5 @@ print_r($ceva);
 echo "<br>";
 var_dump($ceva);
 
-
+include ("footer.php");
  ?>

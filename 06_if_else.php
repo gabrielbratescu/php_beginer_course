@@ -1,5 +1,5 @@
 <?php
-
+include ("header.php");
 
 $a = 273;
 
@@ -24,6 +24,12 @@ if ($a < 25) {
 elseif ($a < 500 ) {
   echo "$a este mai mic decat 500 dar mai mare dacat 25";
 }
+elseif ($a < 600 ) {
+  echo "$a este mai mic decat 500 dar mai mare dacat 25";
+}
+elseif ($a < 700 ) {
+  echo "$a este mai mic decat 500 dar mai mare dacat 25";
+}
 else {
   echo "$a este mai mare decat 500";
 }
@@ -46,6 +52,6 @@ else {
 
 
 
-
+include ("footer.php");
 
 ?>

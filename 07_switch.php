@@ -1,23 +1,27 @@
 <?php
+include ("header.php");
+
 
 $cuvant = "alune";
 
 switch ($cuvant) {
   case 'alune':
     echo "Alune";
-    //break;
+    break;
   case 'migdale':
     echo "Migdale";
-    //break;
+    break;
   case 'miere':
     echo "Miere";
-    //break;
+    break;
 
   default:
     echo "Nu e niciuna de mai sus";
     break;
 }
 
+
+include ("footer.php");
 
 
 ?>

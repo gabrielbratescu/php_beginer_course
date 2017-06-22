@@ -1,4 +1,5 @@
 <?php
+include ("header.php");
 
 $nume = "Gabriel Mircea Bratescu";
 $varsta = 38;
@@ -35,6 +36,6 @@ echo "<pre>";
 print_r($nume);
 echo "</pre>";
 
-
+include ("footer.php");
 
 ?>

@@ -1,4 +1,5 @@
 <?php
+include ("header.php");
 
 $a = 25;
 $b = 5;
@@ -46,5 +47,5 @@ echo "<hr>";
 echo "<h2>Operatori logici si de comparatie</h2>";
 echo "<h4>Exemple la functia <a href='06_if_else.php' >IF .. ELSE</a></h4>";
 
-
+include ("footer.php");
 ?>
