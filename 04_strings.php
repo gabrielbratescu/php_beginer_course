@@ -1,6 +1,7 @@
 <?php
 include ("header.php");
 
+
 $mesaj = "Astazi este o zi PHP buna de invatat PHP";
 
 echo $mesaj . "<hr>";

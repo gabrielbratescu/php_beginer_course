@@ -2,10 +2,10 @@
 include ("header.php");
 require ("11_functii_lib.php");
 
-
 function calculeazaSuma($a, $b){
    $c = $a + $b;
    return $c;
+
 }
 
 $d = calculeazaDiferenta(3,5);

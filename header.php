@@ -2,6 +2,7 @@
 <head>
   <title>Index for PHP Course</title>
   <!-- Latest compiled and minified CSS -->
+
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css"
     integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css"
@@ -15,5 +16,6 @@
 <body>
     <div class="container-fluid">
       <div class="page-header">
-        <h1>File: <?php echo  substr($_SERVER["SCRIPT_FILENAME"] ,  strrpos($_SERVER["SCRIPT_FILENAME"], "/")+1 ); ?></h1>
+        <h1>File: <?php
+        echo  substr($_SERVER["SCRIPT_FILENAME"] ,  strrpos($_SERVER["SCRIPT_FILENAME"], "/")+1 ); ?></h1>
       </div>

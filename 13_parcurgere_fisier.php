@@ -30,8 +30,37 @@ while ( !feof($fileHandler)) {
 }
 myArrayPrint($allData);
 fclose($fileHandler);
+?>
+
+<div class="col-sm-12">
+<table class="table-striped col-sm-6">
+  <thead>
+    <tr>
+      <th>Nume</th>
+      <th>Prenume</th>
+      <th>Varsta</th>
+      <th>Angajat</th>
+      <th>Inaltime</th>
+    </tr>
+  </thead>
+  <tbody>
+  <?php
+     for ($i=0; $i< count($allData); $i++){
+       echo "<tr>";
+
+        foreach ($allData[$i] as $key => $value) {
+          echo "<td> $value </td>";
+        }
+       echo "</tr>";
+     }
+   ?>
+ </tbody>
+</table>
+</div>
 
 
+
+<?php
 include ("footer.php");
 
  ?>

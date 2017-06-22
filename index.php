@@ -35,6 +35,9 @@
           <a href="10_functii.php" class="list-group-item">Functii</a>
           <a href="12_fisiere.php" class="list-group-item">Manipulare fisiere</a>
           <a href="13_parcurgere_fisier.php" class="list-group-item">Parcurgere fisier</a>
+          <a href="14_ecuatie_gr2.php" class="list-group-item">Ecuatie de grad 2</a>
+          <a href="15_cautare_string.php" class="list-group-item">Cautare cuvant</a>
+          <a href="16_parcurgere_array.php" class="list-group-item">Parcurgere array</a>
 
         </ul>
       </div>
