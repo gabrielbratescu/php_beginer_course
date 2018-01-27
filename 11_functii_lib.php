@@ -1,5 +1,4 @@
 <?php
-
 function calculeazaDiferenta($a, $b){
   return $a-$b;
 }
@@ -24,15 +23,9 @@ function getSexFromCNP($cnp) {
   }
 }
 
-
-
 function myArrayPrint($a){
   echo "<pre>";
   print_r($a);
   echo "</pre>";
 }
-
-
-
-
 ?>
